@@ -271,9 +271,9 @@ nav {
     nav .social-button[title="Facebook"] {
       background-position: 0 0; }
     nav .social-button[title="Youtube"] {
-      background-position: 36px 0; }
-    nav .social-button[title="Instagram"] {
       background-position: 72px 0; }
+    nav .social-button[title="Instagram"] {
+      background-position: 36px 0; }
 
 footer.footer {
   padding: 20px 0;
