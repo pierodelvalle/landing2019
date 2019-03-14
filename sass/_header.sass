@@ -1,0 +1,41 @@
+header.header
+	padding: 20px 0
+
+nav
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	
+	.navbar-brand
+		width: 150px
+		display: inline-block
+
+	.navbar-item
+		display: inline-block
+
+	.social-button
+
+		height: 36px
+		width: 36px
+	
+		transform: scale(0.8)
+
+		background-image: url('../img/social-sprites.png')
+		transition: $transition
+
+		@media screen and (min-width: 768px)
+			transform: scale(1)
+			margin: 0 5px
+
+		&:hover
+			opacity: 0.5
+			transition: $transition
+
+		&[title="Facebook"]
+			background-position: 0 0
+
+		&[title="Youtube"]
+			background-position: 36px 0
+
+		&[title="Instagram"]
+			background-position: 72px 0
